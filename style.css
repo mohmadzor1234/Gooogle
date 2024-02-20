@@ -1,0 +1,201 @@
+@media only screen and (min-width: 601px) and (max-width:3080px)  {
+    
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .top{
+        width: 100%;
+        height: 20vh;
+    
+        box-sizing: border-box;
+    }
+    .top .top-items .first-ul{
+        list-style: none;
+        float: left;
+    }
+    .top .top-items .first-ul li{
+        display: inline-block;
+        padding-top: 20px;
+        padding-left: 5px;
+    }
+    .top .top-items .first-ul li a{
+        text-decoration: none;
+        color: rgb(20, 20, 20);
+    }
+
+    .top .top-items .first-ul li a:hover{
+        text-decoration: underline;
+    }
+    .top .top-items table{
+    float: right;
+    }
+    .top .top-items table tr th{
+        padding-top: 20px;
+        padding-right: 5px;
+        padding-left: 10px;
+    }
+    .top .top-items table tr td a{
+        padding-right: 5px;
+        text-decoration: none;
+        color: rgb(20, 20, 20);
+    
+    }
+    .top .top-items table tr td a:hover{
+        text-decoration: underline;
+    }
+    .top .top-items table .first-img{
+        width: 20px;
+        padding-bottom: 10px;
+    }
+    .top .top-items table .secund-img{
+        width: 30px;
+        border-radius: 20px;
+        margin-top: -10px;
+    }
+    /*---------------------------------------------------*/
+    .center{
+        text-align: center;
+       
+        width: 100%;
+        height: 60vh;
+     
+    }
+    .center .center-items img{
+        width: 200px;
+        height: auto;
+    }
+    .center .center-items .center-inp{
+        padding-top: 5px;
+    } 
+    .center .center-items .center-inp input{
+        width: 500px;
+        height: 40px;
+        border-radius: 25px;
+        overflow: hidden;
+        background-image: url(img/mic.png);
+        border: 0.5px solid #aaa;
+        outline: none;
+        transition: 0.3s;
+        background-image: url(img/mic.png);
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position-x: right  ;
+        background-position-y: center;
+        padding-left: 20px;
+    }
+    .center .center-items .center-inp input:hover{
+        box-shadow: beige 2px 2px 2px 2px ;
+    }
+    .center .center-items .center-buttom{
+        text-align: center;
+       
+    
+    }
+    .center .center-items .center-buttom ul{
+        list-style: none;
+    }
+    .center .center-items .center-buttom ul li{
+        display: inline-block;
+        padding: 10px;
+    
+    }
+    .center .center-items .center-buttom ul li input{
+        width: 120px;
+        height: 20px;
+        border: none;
+        transition: .3s;
+    }
+    .center .center-items .center-buttom ul li input:hover{
+        background-color: #aaa;
+    }
+    .center .center-items .center-ul{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .center .center-items .center-ul ul{
+        list-style: none;
+    }
+    .center .center-items .center-ul ul li{
+        display: inline-block;
+        color: rgb(20, 20, 20); 
+        padding-left: 10px;
+    }
+    .center .center-items .center-ul ul li a{
+        text-decoration: none;
+        
+        
+    }
+    .center .center-items .center-ul ul li a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .footer{
+        background-color: #f2f2f2;
+        height: 20vh;
+        box-sizing: border-box;
+    }
+    .footer .footer-items .footer-left{
+        float: left;
+        list-style: none;
+        margin-top: 40px;
+        box-sizing: border-box;
+    
+    }
+    
+    .footer .footer-items .footer-left li{
+        display: inline-block;
+        padding-left: 5px;
+    }
+    .footer .footer-items .footer-left li a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+    .footer .footer-items .footer-left li a:hover{
+        text-decoration: underline;
+    }
+    .footer .footer-items .footer-right{
+        float: right;
+        list-style: none;
+        margin-top: 40px;
+        box-sizing: border-box;
+       
+    }
+    .footer .footer-items .footer-right li{
+        display: inline-block;
+        padding-right: 5px;
+    }
+    .footer .footer-items .footer-right li a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+    .footer .footer-items .footer-right li a:hover{
+        text-decoration: underline;
+    }
+    .footer .footer-items .footer-p{
+      padding-top: 15px;
+      padding-left: 5px;
+    }
+    }
+    
